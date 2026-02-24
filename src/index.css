@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+      font-family: "Inter", sans-serif;
+      color:oklch(12.9% 0.042 264.695);
+      width: 100%;
+      /* background-color: beige; */
+      height: 100vh;
+}
+
+/* font-group */
+.font-group {
+      font-size: 1.7rem;
+      text-transform: capitalize;
+      font-weight: bold;
+}
+
+/* span-group */
+.span-group {
+      font-size: 1rem;
+      text-transform: capitalize;
+      font-weight:600;
+      color:oklch(0% 0 0);
+}
+
+/* font-title */
+.font-title {
+      font-size: 1.5rem;
+      text-transform: capitalize;
+      font-weight: bold;
+}
+/* font-text */
+.font-text {
+      font-size: 1rem;
+      text-transform: capitalize;
+      position: relative;
+      transition: all .4s linear;
+}
+.font-text:hover {
+      color: oklch(61.479% 0.11748 86.944);
+      opacity: 0.7;
+      transition-duration: .4s;
+}
+
+/* font-desc */
+.font-desc {
+      font-size: 0.7rem;
+      font-weight: 400;
+}
+
+/* btn */
+.btn {
+      width: 150px;
+      display: block;
+      padding: 7px 27px;
+      border-radius: 7px;
+      border: 1px solid oklch(97.7% 0.013 236.62);
+      outline: none;
+      transition: all .4s linear;
+      text-transform: capitalize;
+      margin-top: 20px;
+      font-size: 1rem;
+      font-weight: 600;
+      background-color: #000000;
+      color: aliceblue;
+      text-align: center;
+      margin-top: 20px;
+}
+
+.btn:hover {
+      background-color: oklch(97.7% 0.013 236.62);
+      transition-duration: .4s;
+      transform: rotate(2deg);
+      opacity: 0.7;
+      color: rgb(0, 0, 0);
+      background-color: rgb(223, 126, 15);
+}
+.login {
+      width: 100px;
+      display: block;
+      padding: 7px 27px;
+      border-radius: 17px;
+      border: 1px solid oklch(97.7% 0.013 236.62);
+      outline: none;
+      transition: all .4s linear;
+      text-transform: capitalize;
+      font-size: 1rem;
+      font-weight: 600;
+}
+
+.login:hover {
+      background-color: oklch(61.431% 0.14205 244.587);
+      transition-duration: .4s;
+      transform: rotate(2deg);
+      opacity: 0.7;
+      color: rgb(235, 11, 11);
+}
+.shadow:hover{
+      box-shadow: 10px 3px 10px red;
+}
+
+/* hero */
+.hero {
+      background: linear-gradient(oklch(71.8% 0.202 349.761), oklch(83.3% 0.145 321.434), oklch(71.4% 0.203 305.504), oklch(67.3% 0.182 276.935), oklch(70.7% 0.165 254.624), oklch(67.3% 0.182 276.935), oklch(74.6% 0.16 232.661), oklch(86.5% 0.127 207.078));
+}
+.font-hero {
+      text-transform: capitalize;
+      font-weight: bold;
+      text-transform:capitalize;
+      font-size: 2.9rem;
+}
+.btn-hero {
+      width: 230px;
+      display: block;
+      padding: 7px 27px;
+      border-radius: 7px;
+      border: 1px solid oklch(97.7% 0.013 236.62);
+      outline: none;
+      transition: all .4s linear;
+      text-transform: capitalize;
+      margin-top: 20px;
+      font-size: 1rem;
+      font-weight: 600;
+      background-color: #c97c1e;
+      color: aliceblue;
+      margin-top: 20px;
+}
+
+.btn-hero:hover {
+      background-color: oklch(97.7% 0.013 236.62);
+      transition-duration: .4s;
+      transform: rotate(2deg);
+      opacity: 0.7;
+      color: rgb(0, 0, 0);
+}
+.hero-animation{
+      animation: hero-animation 2s ease-in-out infinite;
+}
+@keyframes hero-animation{
+      0%{
+            transform: translateY(0px);
+      }
+      50%{
+            transform: translateY(15px);
+      }
+      100%{
+            transform: translateY(0px);
+      }
+}
+/* service */
+.service-shadow:hover{
+      box-shadow: 10px 3px 10px rgb(141, 141, 141);
+}
+/* contact */
+input{
+      padding: 5px 25px;
+      border: 1px solid white;
+      outline: none;
+      transition: all .4s linear;
+      background-color: #6a6963;
+      border-radius: 7px;
+}
+input:hover{
+      background-color: #000000;
+      transition-duration: .4s;
+}
+input::placeholder{
+      text-transform: capitalize;
+      color: white;
+}
