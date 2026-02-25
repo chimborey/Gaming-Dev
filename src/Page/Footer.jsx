@@ -14,14 +14,14 @@ const Footer = () => {
           {/* footer-header */}
           {/* grid01 */}
           <div className='flex flex-col text-start'>
-            <Link to={'/'} className='font-title' data-aos='fade-up' data-aos-delay='300'>cofe dev</Link>
+            <Link to={'/'} className='font-title' data-aos='fade-up' data-aos-delay='300'>gaming dev</Link>
             <p className='font-desc' data-aos='fade-up' data-aos-delay='600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim natus fugit quo accusamus pariatur dolor vero soluta sint neque ex velit, blanditiis quia praesentium saepe reiciendis consequatur quis provident reprehenderit iure in repellendus delectus qui et quasi.</p>
           </div>
           {/* grid01 */}
-          <div className='flex flex-col text-center'>
-            <h3 to={'/'} className='font-title' data-aos='fade-up' data-aos-delay='300'>links</h3>
+          <div className='flex flex-col text-center' data-aos='fade-up' data-aos-delay='300'>
+            <h3 to={'/'} className='font-title'>links</h3>
             <div>
-              <div className='flex flex-col items-center gap-2'>
+              <div className='flex flex-col items-center gap-2' data-aos='fade-up' data-aos-delay='600'>
                 <Link to={'/'} className='font-text'>home</Link>
                 <Link to={'/service'} className='font-text'>service</Link>
                 <Link to={'/about'} className='font-text'>about</Link>
@@ -55,7 +55,7 @@ const Footer = () => {
         </div>
         {/* footer-footer */}
         <div className='text-center mx-auto mt-7 mb-7' data-aos='fade-up' data-aos-delay='300'>
-          <span className='text-sm text-white'>@copyright cofe_dev by <span className='text-yellow-300'>technology-developer</span> | All rights reserved</span>
+          <span className='text-sm text-white'>@copyright gaming_dev by <span className='text-yellow-300'>technology-developer</span> | All rights reserved</span>
         </div>
       </main>
     </section>

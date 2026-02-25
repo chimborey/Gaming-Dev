@@ -12,6 +12,7 @@ import { ToastContainer } from 'react-toastify'
 import Contact from './Page/Contact'
 import Faq from './Page/Faq'
 import Cart from './Page/Cart'
+import Features from './Page/Features'
 const App = () => {
       // AOS
       useEffect(() => {
@@ -33,6 +34,7 @@ const App = () => {
                         <Route path='/contact' element={<Contact />}></Route>
                         <Route path='/faq' element={<Faq />}></Route>
                         <Route path='/cart' element={<Cart />}></Route>
+                        <Route path='/features' element={<Features />}></Route>
                   </Routes>
                   <Footer />
             </BrowserRouter>
