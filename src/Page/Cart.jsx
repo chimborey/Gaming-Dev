@@ -3,7 +3,7 @@ import { ShopContext } from '../Components/ShopContext'
 import { FiTrash2 } from 'react-icons/fi'
 import CartDetail from '../Components/CartDetail'
 const Cart = () => {
-  const { quantiy, total, clearCart, cart } = useContext(ShopContext)
+  const { quantity, total, clearCart, cart } = useContext(ShopContext)
   return (
     <div className='w-full bg-blue-300 mx-auto py-12 mt-14 flex flex-col md:flex-row gap-8 md:px-24'>
       {/* left section */}
@@ -11,7 +11,7 @@ const Cart = () => {
         {/* header */}
         <div className='flex justify-between items-center border-b pb-4'>
           <h1 className='font-title'>shopping cart</h1>
-          <h1 className='font-title '>items: ({quantiy})</h1>
+          <h1 className='font-title '>items: ({quantity})</h1>
           <FiTrash2 onClick={clearCart} className='text-red-500 text-2xl cursor-pointer' />
         </div>
         {/* subheader */}
