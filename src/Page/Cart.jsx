@@ -41,7 +41,7 @@ const Cart = () => {
 
         <div className='flex justify-between mt-2 font-desc'>
           <span className='font-menu amber '>items:</span>
-          <span className='font-menu yellow'>{quantiy}</span>
+          <span className='font-menu yellow'>{quantity}</span>
         </div>
 
         <div className='flex justify-between mt-2 font-desc'>
